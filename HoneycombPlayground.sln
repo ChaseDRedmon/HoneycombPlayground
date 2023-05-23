@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoneycombPlayground", "HoneycombPlayground\HoneycombPlayground.csproj", "{E8365531-E8B8-4CBE-BCBB-1D17190FEC23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Honeycomb.OpenTelemetry", "..\..\Libraries\honeycomb-opentelemetry-dotnet\src\Honeycomb.OpenTelemetry\Honeycomb.OpenTelemetry.csproj", "{D92F819F-BAA4-4614-959F-98A78AC82A9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Honeycomb.OpenTelemetry.CommonInstrumentations", "..\..\Libraries\honeycomb-opentelemetry-dotnet\src\Honeycomb.OpenTelemetry.CommonInstrumentations\Honeycomb.OpenTelemetry.CommonInstrumentations.csproj", "{0C0992F0-DDB6-413A-A4D5-34665CF6D2E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Honeycomb.OpenTelemetry.Instrumentation.AspNetCore", "..\..\Libraries\honeycomb-opentelemetry-dotnet\src\Honeycomb.OpenTelemetry.Instrumentation.AspNetCore\Honeycomb.OpenTelemetry.Instrumentation.AspNetCore.csproj", "{ECFFA80F-9B79-4A5B-B961-FD86B8CED79A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTelemetry", "..\..\Libraries\opentelemetry-dotnet\src\OpenTelemetry\OpenTelemetry.csproj", "{B427149C-6B26-462C-B2F3-77405D7BC7D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTelemetry.Exporter.Console", "..\..\Libraries\opentelemetry-dotnet\src\OpenTelemetry.Exporter.Console\OpenTelemetry.Exporter.Console.csproj", "{75B35DDB-10D7-4307-BC59-2B762524DBCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTelemetry.Exporter.OpenTelemetryProtocol", "..\..\Libraries\opentelemetry-dotnet\src\OpenTelemetry.Exporter.OpenTelemetryProtocol\OpenTelemetry.Exporter.OpenTelemetryProtocol.csproj", "{2B84E668-8D88-46F9-A4C7-BD47CA9BA815}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTelemetry.Api.ProviderBuilderExtensions", "..\..\Libraries\opentelemetry-dotnet\src\OpenTelemetry.Api.ProviderBuilderExtensions\OpenTelemetry.Api.ProviderBuilderExtensions.csproj", "{BAEFFCB9-95F4-4736-8777-DA6C372723DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTelemetry.Api", "..\..\Libraries\opentelemetry-dotnet\src\OpenTelemetry.Api\OpenTelemetry.Api.csproj", "{D365B934-C8E9-4528-94E6-B022BA437909}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8365531-E8B8-4CBE-BCBB-1D17190FEC23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8365531-E8B8-4CBE-BCBB-1D17190FEC23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8365531-E8B8-4CBE-BCBB-1D17190FEC23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8365531-E8B8-4CBE-BCBB-1D17190FEC23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92F819F-BAA4-4614-959F-98A78AC82A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92F819F-BAA4-4614-959F-98A78AC82A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92F819F-BAA4-4614-959F-98A78AC82A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92F819F-BAA4-4614-959F-98A78AC82A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C0992F0-DDB6-413A-A4D5-34665CF6D2E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0992F0-DDB6-413A-A4D5-34665CF6D2E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0992F0-DDB6-413A-A4D5-34665CF6D2E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0992F0-DDB6-413A-A4D5-34665CF6D2E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECFFA80F-9B79-4A5B-B961-FD86B8CED79A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECFFA80F-9B79-4A5B-B961-FD86B8CED79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECFFA80F-9B79-4A5B-B961-FD86B8CED79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECFFA80F-9B79-4A5B-B961-FD86B8CED79A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B427149C-6B26-462C-B2F3-77405D7BC7D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B427149C-6B26-462C-B2F3-77405D7BC7D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B427149C-6B26-462C-B2F3-77405D7BC7D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B427149C-6B26-462C-B2F3-77405D7BC7D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75B35DDB-10D7-4307-BC59-2B762524DBCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B35DDB-10D7-4307-BC59-2B762524DBCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B35DDB-10D7-4307-BC59-2B762524DBCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B35DDB-10D7-4307-BC59-2B762524DBCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B84E668-8D88-46F9-A4C7-BD47CA9BA815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B84E668-8D88-46F9-A4C7-BD47CA9BA815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B84E668-8D88-46F9-A4C7-BD47CA9BA815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B84E668-8D88-46F9-A4C7-BD47CA9BA815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAEFFCB9-95F4-4736-8777-DA6C372723DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAEFFCB9-95F4-4736-8777-DA6C372723DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAEFFCB9-95F4-4736-8777-DA6C372723DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAEFFCB9-95F4-4736-8777-DA6C372723DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D365B934-C8E9-4528-94E6-B022BA437909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D365B934-C8E9-4528-94E6-B022BA437909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D365B934-C8E9-4528-94E6-B022BA437909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D365B934-C8E9-4528-94E6-B022BA437909}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
